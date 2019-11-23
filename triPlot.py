@@ -18,7 +18,7 @@ import csv
 import math
 
 
-# In[32]:
+# In[34]:
 
 
 def rating_distribution(path):
@@ -64,10 +64,7 @@ def rating_distribution(path):
         rd.append(ratingd[i])
         trd.append(sum(trcnt[i])/len(trcnt[i]))
         pd.append(sum(pcnt[i])/len(pcnt[i]))
-    print(x)
-    print(rd)
-    print(trd)
-    print(pd)
+
     rdt=[]
     trdt=[]
     pdt=[]
@@ -77,10 +74,7 @@ def rating_distribution(path):
         rdt.append(rd[i]/sum(rd))
         trdt.append(trd[i]/sum(trd))
         pdt.append(pd[i]/sum(pd))
-    print(x)
-    print(rdt)
-    print(trdt)
-    print(pdt)
+
     '''
     ls=sns.barplot(x,rdt,color='darkred')
     ls.set_xlabel("Book Ratings",fontsize=30)
@@ -107,7 +101,7 @@ def rating_distribution(path):
     fig.savefig('triRatings.png',transparent=True)
 
 
-# In[33]:
+# In[35]:
 
 
 path='datav4.csv'
