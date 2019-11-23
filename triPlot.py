@@ -87,9 +87,9 @@ def rating_distribution(path):
     width = 0.2   
     fig,ax = plt.subplots(figsize=(20,15))
     #plt.rcParams["figure.figsize"]=(50,50)
-    ax.bar(xx-width,rdt,width,color='maroon',label='Ratings Count')
-    ax.bar(xx,trdt,width,color= 'Firebrick',label='Text Reviews Count')
-    ax.bar(xx+width,pdt,width,color= 'IndianRed',label='Pages Count')
+    ax.bar(xx-width,rdt,width,color='darkred',label='Ratings Count')
+    ax.bar(xx,trdt,width,color= 'midnightblue',label='Text Reviews Count')
+    ax.bar(xx+width,pdt,width,color= 'peru',label='Pages Count')
     ax.set_xticks(xx-3*width)
     plt.xticks(xx,['0 - 1', '1 - 2', '2 - 3', '3 - 4', '4 - 5'],fontsize=20)
     plt.xlabel('Rating Intervals',fontweight='bold',fontsize=20)
