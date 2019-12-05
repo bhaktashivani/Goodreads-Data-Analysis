@@ -8,4 +8,5 @@ It alsp plots a pie chart with English and other Languages percentage.
 ### Top_10_books.py
 This file has three functions highest_reviews_books(data), highest_ratings_count_books(data) and highest_num_pages_books(data). They plot the the books with the highest number of reviews, the books with the highest number of ratings and the books with the highest number of pages.
 
-
+### Rating_didtribution.py
+This file has a function rate_distribution(data), which plots a histogram to show the rating distribution for the books. 
