@@ -53,14 +53,13 @@ def get_dead_Data():
 # In[8]:
 
 
-print(float(dsum)/float(dcnt))
-print(float(asum)/float(acnt))
-
-
 # In[2]:
 
 
 def deadAuthors():
+    '''
+    plot the garph whether dead or live author has higher rating
+    '''
     import seaborn as sns
     import matplotlib.pyplot as plt
     b=['dead author','live author']
