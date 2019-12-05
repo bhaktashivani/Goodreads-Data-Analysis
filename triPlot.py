@@ -22,6 +22,12 @@ import math
 
 
 def rating_distribution(path):
+    '''
+    rating versus
+    1.ratings count
+    2.text reviews count
+    3.pages count
+    '''
     f=open(path,'r')
     reader = csv.reader(f)
     fieldnames = next(reader)
