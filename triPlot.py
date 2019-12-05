@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[3]:
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -18,10 +18,16 @@ import csv
 import math
 
 
-# In[34]:
+# In[38]:
 
 
 def rating_distribution(path):
+    '''
+    plot rating versus 
+    1.ratings count
+    2.text reviews count
+    3.pages count
+    '''
     f=open(path,'r')
     reader = csv.reader(f)
     fieldnames = next(reader)
@@ -91,21 +97,28 @@ def rating_distribution(path):
     ax.bar(xx,trdt,width,color= 'midnightblue',label='Text Reviews Count')
     ax.bar(xx+width,pdt,width,color= 'peru',label='Pages Count')
     ax.set_xticks(xx-3*width)
-    plt.xticks(xx,['0 - 1', '1 - 2', '2 - 3', '3 - 4', '4 - 5'],fontsize=20)
-    plt.xlabel('Rating Intervals',fontweight='bold',fontsize=20)
-    plt.ylabel('Normalized Count',fontweight='bold',fontsize=20)
-    plt.tick_params(labelsize=20)
+    plt.xticks(xx,['0 - 1', '1 - 2', '2 - 3', '3 - 4', '4 - 5'],fontsize=100,fontweight='bold')
+    plt.yticks(fontsize=30,fontweight='bold')
+    plt.xlabel('Rating Intervals',fontweight='bold',fontsize=28)
+    plt.ylabel('Normalized Count',fontweight='bold',fontsize=28)
+    plt.tick_params(labelsize=30)
     plt.title('')
-    ax.legend(loc=2,fontsize=20)
+    ax.legend(loc=2,fontsize=28)
     plt.show()
     fig.savefig('triRatings.png',transparent=True)
 
 
-# In[35]:
+# In[39]:
 
 
 path='datav4.csv'
 rating_distribution(path)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
