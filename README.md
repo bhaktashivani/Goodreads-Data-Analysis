@@ -5,6 +5,11 @@ In this project, we will be analyzing data from a book review website called Goo
 We answered several questions about our dataset, including:
 1. What languages are most common?
 2. What kinds of ratings do users give books in our dataset?
+3. What relationship is there between rating and rating count/number of text reviews/number of pages?
+4. What are the individual books with the highest number of ratings?
+5. What are the individual books with the highest number of reviews?
+6. How many books did the top 5 rated authors in our dataset write?
+7. Do people prefer dead authors to authors that are alive?
 
 ### How to run the code:
 1. Put all the files (datav4.csv, Final_calls.ipynb, Lang_vs_num.py, Top_10_books.py, etc.) in one folder.
