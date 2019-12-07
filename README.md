@@ -25,3 +25,12 @@ This file has three functions highest_reviews_books(data), highest_ratings_count
 
 ### Rating_distribution.py
 This file has a function rate_distribution(data), which plots a histogram to show the rating distribution for the books. 
+
+### deadAuthor.py
+
+
+### plot_books_written.py
+
+
+### triPlot.py
+
