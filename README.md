@@ -19,7 +19,7 @@ We answered several questions about our dataset, including:
 ### Third-party modules being used
 numpy, pandas, os, seaborn, matplotlib, pylab
  
-### File Structure
+## File Structure
 ### Final_code.ipynb
 This file call all functions in .py files and show the plots.
 
