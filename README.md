@@ -16,6 +16,9 @@ We answered several questions about our dataset, including:
 2. Open Final_calls.ipynb and run to see all the plots.
 3. Add your own dataset to this folder and replace the dataset name in Final_calls.ipynb to make new plots.
 
+### Third-party modules being used
+
+
 ### Lang_vs_num.py
 This file has a function lan_vs_num(data), which takes the dataset and gets the column of the languages and plots a bar plot with languages and number of books, excluding all types of english books.
 It alsp plots a pie chart with English and other languages percentage.  
