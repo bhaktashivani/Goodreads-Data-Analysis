@@ -12,12 +12,16 @@ We answered several questions about our dataset, including:
 7. Do people prefer dead authors to authors that are alive?
 
 ### How to run the code:
-1. Put all the files (datav4.csv, Final_calls.ipynb, Lang_vs_num.py, Top_10_books.py, etc.) in one folder.
-2. Open Final_calls.ipynb and run to see all the plots.
-3. Add your own dataset to this folder and replace the dataset name in Final_calls.ipynb to make new plots.
+1. Put all the files (datav4.csv, Final_code.ipynb, Lang_vs_num.py, Top_10_books.py, etc.) in one folder.
+2. Open Final_code.ipynb and run to see all the plots.
+3. Add your own dataset to this folder and replace the dataset name in Final_code.ipynb to make new plots.
 
 ### Third-party modules being used
 numpy, pandas, os, seaborn, matplotlib, pylab
+ 
+### File Structure
+### Final_code.ipynb
+This file call all functions in .py files and show the plots.
 
 ### Lang_vs_num.py
 This file has a function lan_vs_num(data), which takes the dataset and gets the column of the languages and plots a bar plot with languages and number of books, excluding all types of english books.
