@@ -27,6 +27,9 @@ The API we used to gain data.
 ### datav4.csv
 THe dataset we used.
 
+### ratingalive.txt
+We use this file to record the dead and live author ratings.
+
 ### Final_code.ipynb
 This file call all functions in .py files and show the plots.
 
